@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "outDir": "dist",
+    "rootDir": ".",
+    "types": ["node"],
+    "ignoreDeprecations": "6.0"
+  },
+  "include": ["src/**/*.ts", "prisma/**/*.ts"],
+  "ts-node": {
+    "transpileOnly": true
+  }
+}
